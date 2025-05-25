@@ -2,6 +2,9 @@
 #import "ModpackUtils.h"
 #import "UnzipKit.h"
 
+#define API_SOURCE_MODRINTH 1
+#define API_SOURCE_TECHNIC 2
+
 @class MinecraftResourceDownloadTask;
 
 @interface ModpackAPI : NSObject
